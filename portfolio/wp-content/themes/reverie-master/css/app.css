@@ -4957,7 +4957,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
+    background: #fff;
     *zoom: 1;
     overflow: visible;
   }
@@ -5020,7 +5020,7 @@ meta.foundation-mq-topbar {
     background: #fff;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: red;
+    background: #e7725d;
   }
   .top-bar-section .has-dropdown > a {
     padding-right: 35px !important;

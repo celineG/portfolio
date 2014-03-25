@@ -44,10 +44,17 @@
 	<nav class="top-bar" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
-	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> <img src="http://dev.tisseur-de-toile.fr/mjm-web2/celine/portfolio/wp-content/uploads/2014/03/logo.png" alt="celine"> </a></h1>
+	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> <img src="http://dev.tisseur-de-toile.fr/mjm-web2/celine/portfolio/wp-content/uploads/2014/03/logo.png" alt="celine"> </a>	</h1>
 	        </li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>				        		
+	    </ul>
+	     <ul class="">
+	    	<li class="reseau">
+				<a href="" rel="linkedIn"> <img src="http://dev.tisseur-de-toile.fr/mjm-web2/celine/portfolio/wp-content/uploads/2014/03/linkedin.png" class="sociaux" alt="linkedin"> </a>
+        		<a href="" rel="google+"> <img src="http://dev.tisseur-de-toile.fr/mjm-web2/celine/portfolio/wp-content/uploads/2014/03/google+.png" class="sociaux" alt="google+"> </a>
+        		<a href="" rel="twitter"> <img src="http://dev.tisseur-de-toile.fr/mjm-web2/celine/portfolio/wp-content/uploads/2014/03/linkedin.png" class="sociaux" alt="twitter"> </a>
+        	</li>
 	    </ul>
 	    <section class="top-bar-section">
 	    <?php
@@ -82,6 +89,7 @@
 	        */
 	    ?>
 	    </section>
+	   
 	</nav>
 	<!-- End of Top-Bar -->
 </header>

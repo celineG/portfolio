@@ -78,16 +78,3 @@ function onepage_enqueue_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'onepage_enqueue_scripts');
-
-
-
-
-if (class_exists('MultiPostThumbnails')) {
-        new MultiPostThumbnails(
-            array(
-                'label' => 'Secondary Image',
-                'id' => 'secondary-image',
-                'post_type' => 'post'
-            )
-        );
-    }

@@ -1999,7 +1999,7 @@ add_filter('the_content_rss', 'vimeo_plugin');
 add_filter('comment_text', 'vimeo_plugin');
 add_filter('the_excerpt', 'vimeo_plugin');
 
-// Metacafe Code
+// Metacafe Code
 define("METACAFE_WIDTH", 400);
 define("METACAFE_HEIGHT", 345);
 define("METACAFE_REGEXP", "/\[metacafe ([[:print:]]+)\]/");
